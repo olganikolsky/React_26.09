@@ -29,7 +29,10 @@ function App() {
           <Link to="/login" style={{ padding: '0 100px 0 30px' }}>
             Войти
           </Link>
-          <Link to="/formik" style={{ padding: '0 100px 0 30px' }}>
+          <Link
+            to="/formik" className='formik'
+      
+          >
             Отправить форму
           </Link>
         </nav>

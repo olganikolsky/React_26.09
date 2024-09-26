@@ -13,6 +13,12 @@
   flex-direction: column;
 }
 
+.formik {width: 100px;
+  background-color: orange;
+  padding: 15px 40px 15px 40px;
+  border-radius: 15px;
+  color: black}
+
 .d29 {
   width: 100px; 
   height: 80px;
