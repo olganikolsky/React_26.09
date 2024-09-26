@@ -8,8 +8,8 @@ import About from './pages/About';
 import Contacts from './pages/Contacts';
 import Home from './pages/Home';
 import { Login } from './pages/Login';
-import Formikform from './pages/FormikForm';
-import FormikForm from './pages/FormikForm';
+import Formikform from './pages/Controlledform';
+import FormikForm from './pages/Controlledform';
 
 function App() {
   return (
