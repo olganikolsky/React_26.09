@@ -10,11 +10,11 @@ import Home from './pages/Home';
 import { Login } from './pages/Login';
 import Formikform from './pages/Controlledform';
 import FormikForm from './pages/Controlledform';
+import './App.css';
 
 function App() {
   return (
-    <>
-      <FormikForm />
+    <div className="box">
       <Router>
         <nav>
           <Link to="/" style={{ padding: '0 100px 0 30px' }}>
@@ -29,15 +29,20 @@ function App() {
           <Link to="/login" style={{ padding: '0 100px 0 30px' }}>
             Войти
           </Link>
+          <Link to="/formik" style={{ padding: '0 100px 0 30px' }}>
+            Отправить форму
+          </Link>
         </nav>
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/about" element={<About />} />
           <Route path="/contacts" element={<Contacts />} />
+          <Route path="/formik" element={<FormikForm />} />
         </Routes>
       </Router>
-    </>
+    </div>
   );
 }
 
